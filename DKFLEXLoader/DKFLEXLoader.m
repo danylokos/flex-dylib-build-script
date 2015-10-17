@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 f. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 #import "DKFLEXLoader.h"
-
 #import "FLEXManager.h"
 
 @interface DKFLEXLoader ()
@@ -21,7 +21,7 @@ static void initializer(void)
 {
 	NSLog(@"FLEX dylib initializer get called.");
 
-//    [[FLEXManager sharedManager] showExplorer];
+   [[FLEXManager sharedManager] showExplorer];
 }
 
 __attribute__((destructor))
